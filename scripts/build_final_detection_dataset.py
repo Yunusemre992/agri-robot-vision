@@ -142,6 +142,19 @@ SOURCE_CONFIGS = (
         license_text="CC BY 4.0 according to staging SOURCE.md",
         notes="Cucumber fruit plus healthy/diseased cucumber leaf boxes.",
     ),
+    SourceConfig(
+        key="tomato_realworld",
+        expected_staging_classes=frozenset({7, 8}),
+        needs_valid_from_train=False,
+        title="Tomato Leaf Image Dataset for Disease Analysis in Real-World Environment",
+        url="https://data.mendeley.com/datasets/rnbsw72zb5/1",
+        license_text="NOT VERIFIED on the official Mendeley record",
+        notes=(
+            "Bangladesh field-collected tomato leaves with complex backgrounds. "
+            "Ships with ready YOLO boxes (H=0, D=1) remapped to staging 7/8. "
+            "Source train/val split preserved as train/valid."
+        ),
+    ),
 )
 
 

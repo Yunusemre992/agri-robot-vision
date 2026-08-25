@@ -1,0 +1,17 @@
+train: train/images
+val: valid/images
+test: test/images
+nc: 12
+names:
+  0: apple
+  1: tomato
+  2: bell_pepper
+  3: cucumber
+  4: apple_leaf_healthy
+  5: apple_leaf_diseased
+  6: tomato_leaf_healthy
+  7: tomato_leaf_diseased
+  8: bell_pepper_leaf_healthy
+  9: bell_pepper_leaf_diseased
+  10: cucumber_leaf_healthy
+  11: cucumber_leaf_diseased

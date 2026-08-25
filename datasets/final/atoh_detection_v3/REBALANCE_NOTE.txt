@@ -1,0 +1,7 @@
+Rebalanced from atoh_detection_v2
+Moved 90 images train -> test
+Target share per leaf class: 15%
+Train floor: 60%
+
+NOTE: split is image-level. Near-duplicate images from the same source
+folder may now straddle train and test. Check before trusting test AP.
