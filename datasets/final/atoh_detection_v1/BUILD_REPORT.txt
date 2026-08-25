@@ -1,0 +1,39 @@
+AToH AGRICULTURE FINAL DETECTION DATASET v1
+==========================================================
+Staged paired images: 5021
+Exact duplicate groups removed: 0
+Exact duplicate images removed: 0
+Final images: 5021
+Final boxes: 58789
+
+Splits:
+  train: images=3783, boxes=39355
+  valid: images=493, boxes=4594
+  test: images=745, boxes=14840
+
+Class distribution:
+  0: apple | images=1064, boxes=40822
+  1: tomato | images=804, boxes=9777
+  2: bell_pepper | images=122, boxes=724
+  3: cucumber | images=807, boxes=2226
+  4: apple_leaf_healthy | images=91, boxes=247
+  5: apple_leaf_diseased | images=182, boxes=350
+  6: tomato_leaf_healthy | images=72, boxes=396
+  7: tomato_leaf_diseased | images=682, boxes=2522
+  8: bell_pepper_leaf_healthy | images=61, boxes=323
+  9: bell_pepper_leaf_diseased | images=71, boxes=264
+  10: cucumber_leaf_healthy | images=268, boxes=309
+  11: cucumber_leaf_diseased | images=809, boxes=829
+
+Reserved/missing from v1:
+  goji_berry
+  goji_berry_leaf_healthy
+  goji_berry_leaf_diseased
+
+License status:
+  CONDITIONAL - deepNIR and PlantDoc redistribution terms require verification.
+  Suitable for local academic prototype work; do not publish the combined archive yet.
+
+MANDATORY HUMAN CHECK:
+  Open FINAL_AUDIT.jpg and inspect image content, class names and bounding boxes
+  before uploading the dataset to Kaggle or starting training.

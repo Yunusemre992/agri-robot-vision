@@ -1,0 +1,11 @@
+datasets/**/images/
+datasets/**/labels/
+datasets/raw/
+datasets/staging/
+datasets/prepared/
+datasets/rejected/
+*.zip
+*.pt
+*.engine
+runs/
+__pycache__/
