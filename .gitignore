@@ -6,6 +6,7 @@ datasets/prepared/
 datasets/rejected/
 *.zip
 *.pt
+!weights/best.pt
 *.engine
 runs/
 __pycache__/
